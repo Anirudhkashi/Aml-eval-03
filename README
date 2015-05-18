@@ -1,0 +1,24 @@
+Group 8
+
+1PI12CS025 ANIRUDH K
+1PI12EC050 KISHORE R
+1PI12IS010 AKSHAY DESHPANDE
+1PI12IS083 RAVI AGRAWAL
+
+Procedure:
+
+ We first converted the neural network to auto encoder by changing the output same as the input. We wrote a 
+ function to get the parameters associated with the hidden layers. We validated the model by constructing 
+ a 8:3 and 16:4 encoders. We used the same code upon the various MFCC test files to get the VQC(vector quantized
+ files) apparently similar to the data sets which were provided for us during unit evaluation 2.
+ We used the above obtained VQC files to try to train the HMM model as well as to test the HMM model, but because of lack of time, we couldn't execute it.
+
+- All inputs should be in same directory as .py file
+
+Functions added:
+
+1. calcH(self, x):
+	Calculates the hidden value for given input.
+
+2. readFile():
+	Reads different input files and controls the execution of autoencoder. Generates output files for HMM.
